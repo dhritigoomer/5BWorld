@@ -154,20 +154,21 @@ function main() {
 		makeCube ( 0xaa8849, -2, -2, 1, 1, 1),
 		makeCube ( 0xaa8849, -4, -4, 1, 1, 1),
 		makeCube ( 0xab7644, 2, -4, 1, 1, 1),
-
 		makeCube ( 0xaa8849, -4, 2, 1, 1, 1),
+		makeCube ( 0xaa8849, 0, -2, 1, 1, 1),
+		makeCube ( 0xaa8849, 2, -2, 1, 1, 1),
 
 
 		// cone
-		makeCone( 0x8844aa, 0, 2, 1, 1 ),
+		makeCone( 0x8844aa, 0, 4, 1, 1 ),
 		makeCone( 0x8844aa, 4, 2, 1, 1 ),
 		makeCone( 0x8844aa, -2, 0, 1, 1 ),
-		makeCone( 0x8844aa, 2, -2, 1, 1 ),
+		makeCone( 0x8844aa, 2, -6, 1, 1 ),
 
 		// spheres
-		makeSphere (0x96ab35, -2, 2, 0.75, 22, 22 ),
-		makeSphere ( 0x96ab35, 2, 2, 0.75, 22, 22 ),
-		makeSphere ( 0x96ab35, 0, -2, 0.75, 22, 22 ),
+		makeSphere (0x96ab35, -2, 2, 0.75, 22, 22 ), // eye
+		makeSphere ( 0x96ab35, 2, 2, 0.75, 22, 22 ), // eye
+		makeSphere ( 0x96ab35, 0, -6, 0.75, 22, 22 ), // mouth
 		makeSphere( 0xab7644, 4, -4, 0.75, 22, 22 ),
 
 

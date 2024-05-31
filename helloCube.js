@@ -143,18 +143,23 @@ function main() {
 	  const shapes = [
 
 		// Top row
-		// cubes
-		makeCube ( 0xaa8849, 0, 2, 1, 1, 1),
+		// // cubes
+		// makeInstance( geometry, 0x44aa88, 0 ),
+		// makeInstance( geometry, 0x8844aa, - 2 ),
+		// makeInstance( geometry, 0xaa8844, 2 ),
+		// makeInstanceTexture( geometry, materials, -4),
+		// makeCube ( 0xaa8849, 0, 2, 1, 1, 1),
 		makeCube ( 0xaa8849, -4, 0, 1, 1, 1),
 		makeCube ( 0xab7644, 4, 0, 1, 1, 1),
 		makeCube ( 0xaa8849, -2, -2, 1, 1, 1),
 		makeCube ( 0xaa8849, -4, -4, 1, 1, 1),
 		makeCube ( 0xab7644, 2, -4, 1, 1, 1),
 
+		makeCube ( 0xaa8849, -4, 2, 1, 1, 1),
 
 
 		// cone
-		makeCone( 0x8844aa, -4, 2, 1, 1 ),
+		makeCone( 0x8844aa, 0, 2, 1, 1 ),
 		makeCone( 0x8844aa, 4, 2, 1, 1 ),
 		makeCone( 0x8844aa, -2, 0, 1, 1 ),
 		makeCone( 0x8844aa, 2, -2, 1, 1 ),
